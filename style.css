@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Header */
+.top {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1f1f1f;
+}
+
+.top h1 {
+    font-size: 36px;
+}
+
+.top p {
+    margin-top: 8px;
+    color: #bbbbbb;
+}
+
+/* Profile */
+.profile {
+    text-align: center;
+    padding: 3px;
+}
+
+.profile img {
+    width: 110px;        /* controls size */
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #4caf50;
+}
+
+/* Blocks */
+.block {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.block h2 {
+    margin-bottom: 15px;
+    color: #4caf50;
+}
+
+.block ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.block li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f1f1f;
+    margin-top: 40px;
+    color: #888;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .top h1 {
+        font-size: 28px;
+    }
+}
